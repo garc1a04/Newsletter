@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleFix.css">
+  <link rel="stylesheet" href="styleSucess.css">
+
+</head>
+<body>
+  <div class="main">
+    <div class="container background-container">
+      <div class="email">
+
+        <div class="text">
+          <h1 class="roboto-700 title">Stay updated!</h1>
+          <p class="roboto">Join 60,000+ product managers receiving monthly updates on:</p>
+        </div>
+
+        <div class="features roboto">
+          <div>
+            <div class="list">
+              <img src="./assets/images/icon-list.svg">
+              <p class="list-p">Product discovery and building what matters</p>
+            </div>
+
+            <div class="list">
+              <img src="./assets/images/icon-list.svg">
+              <p class="list-p">Measuring to ensure updates are a success</p>
+            </div>
+
+            <div class="list">
+              <img src="./assets/images/icon-list.svg">
+              <p class="list-p">And much more!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="login roboto">
+          
+          <div class="input-text">
+
+            <div class="text-email-p margin-0">
+              <p class="margin-0 text-Email">Email address</p>
+            </div>
+
+            <input class="input roboto" type="text" placeholder="email@company.com">
+
+          </div>
+
+          <div class="div-button">
+            <button class="button roboto-700 text-button">Subscribe to monthly newsletter</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="img">
+        <picture>
+          <source media="(max-width: 430px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
+          <img src="./assets/images/illustration-sign-up-desktop.svg">
+        </picture>
+
+      </div>
+    </div>
+
+    <div class="container2 background-container2">
+      <div class="img-text">
+        <div class="img-sucess">
+          <img src="./assets/images/icon-success.svg">
+        </div>
+    
+        <div class="text-sucess">
+          <h1 class="title-sucess roboto-700">Thanks for subscribing!</h1>
+        </div>
+      </div>
+  
+      <div class="div-button2">
+        <button class="button2 roboto-700 text-button">Dismiss message</button>
+      </div>
+    </div>
+  </div>
+
+    
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

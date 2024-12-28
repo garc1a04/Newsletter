@@ -1,0 +1,25 @@
+.input-error {
+    border-color: rgb(255,0,0,0.3);
+    background-color: rgba(255,0,0,0.1);
+    color: red;
+}
+
+.input-border-click {
+    color: black;
+    outline-color: rgb(0, 0, 0,0.5);
+}
+
+.message-Error {
+    color: rgb(255,0,0,0.7);
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.bold-span {
+    font-weight: bold;
+}
+
+.background-button {
+    background-color: hsl(4, 100%, 67%);
+}
